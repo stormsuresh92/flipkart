@@ -46,7 +46,7 @@ def get_productdata(link):
 
 searchTerm = input('Enter product name here:')
 mainlist = []
-for x in range(0, 2):
+for x in range(0, 501):
     links = page(x)
     for link in links:
         mainlist.append(get_productdata(link))
